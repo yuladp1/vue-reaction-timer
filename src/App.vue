@@ -47,4 +47,8 @@ export default {
   color: #444;
   margin-top: 60px;
 }
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 </style>
